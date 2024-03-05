@@ -1,0 +1,31 @@
+body{
+	background-color: #B4A8A8;
+	justify-content: center;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+	
+	
+}
+table {
+      width: 90%;
+      border-collapse: collapse;
+      margin-top: 20px;
+}
+th, td {
+      border: 1px solid #000000;
+      text-align: left;
+      padding: 8px;
+}
+th {
+      background-color: #333333;
+      color: white;
+}
+audio {
+      width: 100%;
+}
+tr th{
+	width: 25%;
+}

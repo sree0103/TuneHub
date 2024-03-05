@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel=stylesheet type=text/css th:href="@{/register.css}">
+<title>REGISTER</title>
+</head>
+<body>
+	<div class="register">
+		<form action="register" method="post">
+			<h2>Registration Form</h2>
+			<label>UserName:</label> <br> <input type="text" name="username">
+			<br><label>Email:</label><br> <input
+				type="email" name="email"> <br><label>Password:</label><br>
+			<input type="password" name="password"> <br><label>Gender:</label>
+			 Male<input type="radio" name="gender" value="male">
+			Female<input type="radio" name="gender" value="female"> Other<input
+				type="radio" name="gender" value="other"> <br><br>
+			<label>Role:</label>Admin<input type="radio" name="role"
+				value="admin"> Customer<input type="radio" name="role"
+				value="customer"> <br><br> <label>Address:</label>
+			<textarea name="address"></textarea>
+			<br> <input type="submit" value="SUBMIT">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+	background-color: #B4A8A8;
+	justify-content: center;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	font-family: Arial, sans-serif;
+	padding: 0;
+	align-items: center;
+}
+input[type="submit"]{
+	width: 100%;
+	padding: 12px;
+	background-color: #333333;
+	color: #fff;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background-color: #555555;
+}
+form{
+	text-align: center;
+}
